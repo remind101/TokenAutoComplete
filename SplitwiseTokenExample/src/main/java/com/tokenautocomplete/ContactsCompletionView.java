@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import com.tokenautocomplete.chipsuiview.TokenCompleteTextView;
 
 /**
  * Sample token completion view for basic contact info
@@ -15,7 +16,7 @@ import android.widget.TextView;
  * Created on 9/12/13.
  * @author mgod
  */
-public class ContactsCompletionView extends TokenCompleteTextView{
+public class ContactsCompletionView extends TokenCompleteTextView {
 
     public ContactsCompletionView(Context context) {
         super(context);

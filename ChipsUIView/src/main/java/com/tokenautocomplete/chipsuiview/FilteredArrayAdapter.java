@@ -1,4 +1,4 @@
-package com.tokenautocomplete;
+package com.tokenautocomplete.chipsuiview;
 
 import android.annotation.TargetApi;
 import android.content.Context;

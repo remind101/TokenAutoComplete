@@ -4,6 +4,10 @@ repositories {
 
 apply plugin: 'android'
 
+dependencies {
+    compile project(':ChipsUIView')
+}
+
 android {
     compileSdkVersion 17
     buildToolsVersion '19.0.0'
@@ -12,13 +16,4 @@ android {
         minSdkVersion 8
         targetSdkVersion 17
     }
-}
-
-task jar(type: Jar) {
-    dependsOn assembleRelease
-    baseName "tokenautocomplete"
-    from fileTree(dir: 'build/classes/release', includes: [
-        '**/TokenCompleteTextView*.class',
-        '**/FilteredArrayAdapter*.class'
-    ])
 }

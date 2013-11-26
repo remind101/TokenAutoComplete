@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.TextView;
+import com.tokenautocomplete.chipsuiview.FilteredArrayAdapter;
+import com.tokenautocomplete.chipsuiview.TokenCompleteTextView;
 
 import java.util.List;
 

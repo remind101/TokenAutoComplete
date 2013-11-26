@@ -1,1 +1,1 @@
-include ':SplitwiseTokenExample'
+include ':SplitwiseTokenExample', ':ChipsUIView'

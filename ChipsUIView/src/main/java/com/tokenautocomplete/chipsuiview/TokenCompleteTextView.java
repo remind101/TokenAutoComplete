@@ -1,4 +1,4 @@
-package com.tokenautocomplete;
+package com.tokenautocomplete.chipsuiview;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
